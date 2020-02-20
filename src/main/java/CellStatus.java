@@ -3,7 +3,7 @@ public enum CellStatus {
 
     public final String status;
 
-    private CellStatus(String status) {
+    CellStatus(String status) {
         this.status = status;
     }
 }
